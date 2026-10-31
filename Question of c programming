@@ -52,6 +52,28 @@ int main(){
 
 4. Define variables for storing a user's first name, last name, and age using appropriate naming conventions and then display them.
 
+#include <stdio.h>
+
+int main() {
+    char f_name[30];
+    char l_name[30];
+    int age;
+
+    printf("Enter a first name: ");
+    scanf("%s", f_name);
+
+    printf("Enter a last name: ");
+    scanf(" %s", l_name); // Note the leading space to clear previous whitespaces
+
+    printf("Enter age: ");
+    scanf(" %d", &age);   // Note the leading space to skip newlines
+
+    printf("\nFirst name is: %s\nLast name is: %s\nAge is: %d\n", f_name, l_name, age);
+
+    return 0;
+}
+
+
 5. Create a program to print the area of a square by inputting its side length
 
 6. Create a program to define a constant for the mathematical value pi (3.14159) and use it to calculate and print the circumference of a circle with a radius input from user.
