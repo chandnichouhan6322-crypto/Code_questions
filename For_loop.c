@@ -54,7 +54,17 @@ int main(){
 	return 0;
 }
 6 WAP to find the factorial of a user-defined number N using a single loop (\(N! = 1 \times 2 \times 3 \times \dots \times N\)).
-
+#include <stdio.h>
+void main(){
+	int a,i,fac=1;
+	printf("enter a number");
+	scanf("%d",&a);
+	for(i=a;i>=1;i--){
+		fac=fac*i;
+	}
+	printf("%d",fac);
+	
+}
 7 WAP to print odd number from 1 to 50 without using any operator or other formula in other line
 #include<stdio.h>
 int main(){
