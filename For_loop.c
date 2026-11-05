@@ -75,4 +75,49 @@ int main(){
 	}
 	return 0;
 }
-		
+8.WAP to print multiple of 3 through scanf take number from user and print multiple of 3 only
+	
+#include<stdio.h>
+int main(){
+    int i, a;
+    printf("Enter a number: ");
+    scanf("%d", &a);
+    for(i = 1; i <= a; i++){
+        if(i % 3 == 0){
+            printf("Multiple of 3\n");
+        } else {
+            printf("%d\n", i);
+        }
+    }
+    return 0;
+}
+9.Write a program to accept an integer \(N\) from the user and print all of its mathematical factors using a single loop.
+	
+#include <stdio.h>
+int main(){
+	int i,a;
+	printf("enter a number");
+	scanf("%d",&a);
+	for(i=1;i<=a;i++){
+		if(a%i==0){
+			printf("%d\n",i);
+		}
+	}
+	return 0;
+}
+10.WAP to print all numbers from 1 to 100, but for multiples of 7, print 'Boom' instead of the number
+#include <stdio.h>
+
+int main() {
+    int i;
+    for (i = 1; i <= 100; i++) {
+        if (i % 7 == 0) {
+            printf("Boom\n"); // Jab 7 ka table aayega
+        } else {
+            printf("%d\n", i); // Baaki saare normal numbers ke liye
+        }
+    }
+    return 0;
+}
+
+
