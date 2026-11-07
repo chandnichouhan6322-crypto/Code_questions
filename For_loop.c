@@ -120,4 +120,48 @@ int main() {
     return 0;
 }
 
+11.WAP to print table by taking number from user in reverse order
+#include<stdio.h>
+int main(){
+	int i,a;
+	printf("enter a number");
+	scanf("%d",&a);
+	for(i=10;i>=1;i--){
+		printf("%d X %d = %d\n",a,i,a*i);
+	}
+	return 0;
+}
+12.WAP to print serial number,square and cube of number
 
+#include<stdio.h>
+int main(){
+	int i,a,b;
+	printf("serial number\n");
+	for(i=1;i<=10;i++){
+		printf("%d\n",i);
+	}
+	printf("square of number\n");
+	for(a=1;a<=10;a++){
+		printf("%d\n",a*a);
+	}
+	printf("cube of number\n");
+	for(b=1;b<=10;b++){
+		printf("%d\n",b*b*b);
+	}
+	return 0;
+}
+
+13.WAP to print fibonacci series(0,1,1,2,3,5,8...)
+
+14.WAP to print year number between 2000 to 2050 which is leap year
+#include<stdio.h>
+int main(){
+	int i;
+	for(i=2000;i<=2050;i++){
+		if(i%4==0){
+			printf("%d is leap year\n",i);
+		}
+	}
+	return 0;
+}
+15.take 4 digit number from user and print their reversed number
