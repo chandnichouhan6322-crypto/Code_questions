@@ -164,4 +164,4 @@ int main(){
 	}
 	return 0;
 }
-15.take 4 digit number from user and print their reversed number
+15.WAP to take 4 digit number from user and print their reversed number
