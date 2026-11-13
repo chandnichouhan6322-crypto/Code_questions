@@ -121,3 +121,47 @@ int main(){
 	printf("value of b is%d",b);
 	return 0;
 }
+9. Create a program that takes two numbers and shows result of all
+arithmetic operators (+,-,*,/,%).
+#include<stdio.h>
+int main(){
+	int a,b,add,sub,product,divide_rem;
+	printf("enter 2 number");
+	scanf("%d %d",&a,&b);
+	add=a+b;
+	printf("addition of 2 number is%d",add);
+	sub=a-b;
+	printf("substraction of 2 number is%d",sub);
+	product=a*b;
+	printf("product of 2 number is%d",product);
+	divide_rem=a%b;
+	printf("division of 2 number is%d",divide_rem);
+	return 0;
+}
+
+10. Given an integer value, convert it to a floating-point value and print both.
+
+
+11. Create a program to calculate product of two floating points numbers.
+
+12. Create a program to calculate Perimeter of a rectangle.
+
+Perimeter of rectangle ABCD = A+B+C+D
+
+13. Create a program to calculate the Area of a Triangle.
+
+Area of triangle = 2*B*H
+
+14. Create a program to calculate simple interest.
+
+Simple Interest = (P x T x R)/100
+
+15. Create a program to calculate Compound interest.
+
+Compound Interest = P(1 + R/100)t
+
+16. Create a program to convert Fahrenheit to Celsius
+
+°C (°F-32) × 5/9
+
+MA TA
