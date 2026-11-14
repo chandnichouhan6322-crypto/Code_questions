@@ -143,8 +143,28 @@ int main(){
 
 
 11. Create a program to calculate product of two floating points numbers.
+#include<stdio.h>
+int main(){
+	float a,b;
+	printf("enter decimal number");
+	scanf("%f",&a);
+	printf("enter decimal number");
+	scanf("%f",&b);
+	printf("%f",a*b);
+	return 0;
+}
 
 12. Create a program to calculate Perimeter of a rectangle.
+#include<stdio.h>
+int main(){
+	float l,b,per_of_rect;
+	printf("enter length and breadth");
+	scanf("%f %f",&l,&b);
+	per_of_rect=2*(l+b);
+	printf("%f",per_of_rect);
+	return 0;
+}
+
 
 Perimeter of rectangle ABCD = A+B+C+D
 
